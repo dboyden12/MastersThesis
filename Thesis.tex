@@ -1,0 +1,137 @@
+\documentclass[12pt]{niuthesis} 	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+			% Use pdf, png, jpg, or epsÂ§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{subfiles}
+
+\usepackage{latexsym}		% to get LASY symbols
+\usepackage{graphicx}		% to insert PostScript figures
+\usepackage{rotating}           % defines sidways table and figure env.
+\usepackage{hyperref}
+%\input{./IntroductionGM2.tex}
+
+%SetFonts
+
+%SetFonts
+
+% Some LaTeX macros
+
+\newcommand{\twochoices}[2]{\left\{ \begin{array}{lcc}
+        \displaystyle #1 \\ \vspace{-10pt} \\
+        \displaystyle #2 \end{array} \right. } %}
+
+\newcommand{\twovec}[2]{\left(\begin{array}{c} #1 \\ #2 \end{array}\right)}
+
+\newcommand{\twomatrix}[4]{\left(\begin{array}{cc} #1 & #2 \\ 
+     #3 & #4 \end{array}\right)}
+
+% Uncomment the following line for a List of Symbols
+% \newcommand{\listofXXX}{\input{symbols}}
+
+\graphicspath{{./Images/}}
+
+\def\files{./Introduction.tex,./E989Experiment.tex,./StrawTubeTracking.tex,./StrawTrackerSystematics.tex}
+
+\begin{document}
+
+\title{Study of the systematical error associated with the tracking detectors in GM2}
+\author{Daniel W. Boyden}
+\major{General Physics}
+\degree{Dissertation}{MS.}{Masters of Science}
+\degreedate{July}{2019}
+\department{Department of Physics}
+\director{Michael Eads}
+
+						% Activate to display a given date or no date
+\begin{abstract}
+The muon g­-2 experiment at Fermi lab looks to measure the anomalous magnetic moment of the muon to an
+unprecedented precision of 0.14 ppm to verify results from the E821 experiment at Brookhaven National
+Laboratory. In addition to the anomalous magnetic moment of the muon the project also seeks to measure
+the muon electric dipole moment to a better precision than has previously has been achieved.
+These measurement along with standard model predictions may result in a discrepancy between the
+standard model and experimental results which may give some insight to beyond standard model physics.
+
+For this thesis I will present the results for systematics studies from the straw tube trackers in this
+experiment mainly the resolution and cross talk in the detectors. I will also present how
+this will vary with a few of the final measurements for this experiment. 
+
+\end{abstract}
+
+\begin{acknowledgments}
+  I would like to thank my advisor Micheal Eads for his financial support, and guidance in completing this research. He has been extremely patient and kind with me while completing the research for this thesis which allowed me to gather a great deal of knowledge that I otherwise would have never been able to do elsewhere.
+  
+  
+  I would like to thank my committee members, Mike Syphers, and David Hedin. During our meeting they have given me there valuable insight which helped give me direction for my research.
+  
+  
+  I would also like to thank all of the professors in the department for giving me the opportunity to study at NIU and giving me direction throughout the course of graduate school.
+\end{acknowledgments}
+
+
+\MakeThesisPrologue
+
+\listoftables
+\listoffigures
+
+\subfile{Introduction.tex}
+\subfile{./E989Experiment.tex}
+\subfile{./StrawTubeTracking.tex}
+\subfile{./StrawTrackerSystematics.tex}
+
+\begin{thebibliography}{20}
+	\bibitem{TDR}??
+	M.~E. Crow.
+	Aerodynamic sound emission as a singular perturbation problem.
+	{\em Stud. Appl. Math.}, 29:21--44, 1968.
+
+	\bibitem{aepps}
+	A. Epps, Masters Thesis, Northern Illinois University, July 2017
+	
+	\bibitem{MuonCampus} 
+	D. Kawall, Fermi National Lab, 49th Annual Users Meeting.
+	
+	\bibitem{jmottASDQ} 
+	J. Mott, Fermi National Lab , GM2-doc-3195-v1
+	
+	\bibitem{jGrange} 
+	J. Grange et al. (Muon g-2 Collaboration), arXiv:1501.06858
+	
+	\bibitem{jPrice} 
+	J. Price, Fermi National Lab , GM2-doc-4375-v1
+	
+	\bibitem{trackerWiki}
+	Fermi Lab Redmine, https://cdcvs.fnal.gov/redmine/projects/gm2tracker/wiki/Reconstruction\_Contents
+	
+	\bibitem{trackerWiki2}
+	Fermi Lab Redmine, https://cdcvs.fnal.gov/redmine/projects/gm2tracker/wiki/Digitalization\_Contents
+	
+	\bibitem{jMottdca} 
+	J. Mott, Fermi National Lab , GM2-doc-6171-v1
+		
+	\bibitem{NickKin} 
+	N. Kinnaird, Fermi National Lab , GM2-doc-8102-v3
+	
+	\bibitem{Sask} 
+	S. Charity, Masters Thesis, University of Liverpool, September 2018
+	
+	\bibitem{jMottpitch} 
+	J. Mott, Fermi National Lab , GM2-doc-17539-v2
+	
+	\bibitem{jMottmiss} 
+	Mott. J, Fermi National Lab , GM2-doc-11112-v1
+	
+\end{thebibliography}
+
+
+
+%%\subfile{./ProofEDM.tex}
+
+
+
+\appendix
+
+\end{document}  
