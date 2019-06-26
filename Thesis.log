@@ -1,0 +1,1071 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2019 08:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Thesis.tex
+(./Thesis.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./niuthesis.cls
+Document Class: niuthesis 2015/03/26
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./ulem.sty
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip43
+\UL@hook=\toks14
+\UL@pe=\count88
+\UL@pixel=\dimen103
+\ULC@box=\box28
+Package: ulem 2000/05/26
+\ULdepth=\dimen104
+)
+(./setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (./geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@dimlist=\toks16
+)
+(./calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count94
+\calc@Cskip=\skip46
+) (./titlesec.sty
+Package: titlesec 2007/08/12 v2.8 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen111
+\ttl@minus=\dimen112
+\ttl@toksa=\toks17
+\titlewidth=\dimen113
+\titlewidthlast=\dimen114
+\titlewidthfirst=\dimen115
+) (./titletoc.sty
+Package: titletoc 2007/08/12 v1.6 TOC entries
+\ttl@leftsep=\dimen116
+) (./tocbibind.sty
+Package: tocbibind 2009/09/04 v1.5i extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+)
+\absbox=\box30
+\dedibox=\box31
+\acknbox=\box32
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks19
+\verbatim@line=\toks20
+\verbatim@in@stream=\read1
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count96
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box33
+\rot@mess@toks=\toks21
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen119
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count99
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count100
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen120
+\Fld@menulength=\count101
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+)
+(./Thesis.aux
+
+LaTeX Warning: Label `EQ:omegaA' multiply defined.
+
+
+LaTeX Warning: Label `fig:ResRun' multiply defined.
+
+
+LaTeX Warning: Label `fig:StdVertSmear' multiply defined.
+
+)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: letterpaper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 72.26999pt, 469.75502pt, 72.26999pt
+v-parts: 72.26999pt, 650.43001pt, 72.26999pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: true
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  469.75502pt
+\textheight 613.43001pt
+\oddsidemargin  0.0pt
+\evensidemargin 0.0pt
+\topmargin  0.0pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 44.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen123
+\scratchbox=\box34
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen124
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 39.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+
+(./Thesis.out) (./Thesis.out)
+\@outlinefile=\write3
+\openout3 = `Thesis.out'.
+
+Missing character: There is no ­ in font cmr12!
+ [1
+Non-PDF special ignored!
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+
+[1
+
+] [2
+
+
+]
+\th@output=\toks24
+ (./Thesis.toc [3
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `Thesis.toc'.
+
+ [4]
+\th@output=\toks25
+ (./Thesis.lot)
+\tf@lot=\write5
+\openout5 = `Thesis.lot'.
+
+ [5
+
+]
+\th@output=\toks26
+ (./Thesis.lof
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [6
+
+] [7])
+\tf@lof=\write6
+\openout6 = `Thesis.lof'.
+
+ [8]
+\th@output=\toks27
+
+(./Thesis.lot)
+\tf@lot=\write7
+\openout7 = `Thesis.lot'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 \listoffigures
+                    [1
+
+
+]
+\th@output=\toks28
+ (./Thesis.lof)
+\tf@lof=\write8
+\openout8 = `Thesis.lof'.
+
+ (./Introduction.tex [2
+
+]
+Chapter 1.
+[3
+
+] [4] [5] [6]
+
+LaTeX Warning: Reference `TDR' on page 7 undefined on input line 103.
+
+[7] [8] [9] [10] [11] [12]
+<./Images/E821Result.jpg, id=602, 323.2075pt x 262.9825pt>
+File: ./Images/E821Result.jpg Graphic file (type jpg)
+
+<use ./Images/E821Result.jpg>
+Package pdftex.def Info: ./Images/E821Result.jpg used on input line 276.
+(pdftex.def)             Requested size: 332.217pt x 270.30118pt.
+) (./E989Experiment.tex [13 <./Images/E821Result.jpg>]
+Chapter 2.
+[14
+
+] <./Images/MuonCampus.jpg, id=616, 371.3875pt x 415.5525pt>
+File: ./Images/MuonCampus.jpg Graphic file (type jpg)
+
+<use ./Images/MuonCampus.jpg>
+Package pdftex.def Info: ./Images/MuonCampus.jpg used on input line 18.
+(pdftex.def)             Requested size: 241.58034pt x 270.30118pt.
+ [15 <./Images/MuonCampus.jpg>]
+<./Images/RingCrossSection.jpeg, id=626, 388.45125pt x 238.8925pt>
+File: ./Images/RingCrossSection.jpeg Graphic file (type jpg)
+
+<use ./Images/RingCrossSection.jpeg>
+Package pdftex.def Info: ./Images/RingCrossSection.jpeg used on input line 28.
+(pdftex.def)             Requested size: 439.54936pt x 270.30118pt.
+
+<./Images/RingBirdsEye.jpeg, id=628, 445.665pt x 404.51125pt>
+File: ./Images/RingBirdsEye.jpeg Graphic file (type jpg)
+
+<use ./Images/RingBirdsEye.jpeg>
+Package pdftex.def Info: ./Images/RingBirdsEye.jpeg used on input line 36.
+(pdftex.def)             Requested size: 297.80516pt x 270.30118pt.
+ [16 <./Images/RingCrossSection.jpeg>]
+<./Images/wauncertainty.jpeg, id=637, 533.995pt x 277.035pt>
+File: ./Images/wauncertainty.jpeg Graphic file (type jpg)
+
+<use ./Images/wauncertainty.jpeg>
+Package pdftex.def Info: ./Images/wauncertainty.jpeg used on input line 50.
+(pdftex.def)             Requested size: 329.0609pt x 170.71652pt.
+
+<./Images/wpuncertainty.jpeg, id=639, 490.83376pt x 482.80376pt>
+File: ./Images/wpuncertainty.jpeg Graphic file (type jpg)
+
+<use ./Images/wpuncertainty.jpeg>
+Package pdftex.def Info: ./Images/wpuncertainty.jpeg used on input line 57.
+(pdftex.def)             Requested size: 347.12383pt x 341.43306pt.
+) (./StrawTubeTracking.tex [17 <./Images/RingBirdsEye.jpeg>] [18 <./Images/waun
+certainty.jpeg> <./Images/wpuncertainty.jpeg>]
+Chapter 3.
+[19
+
+] <./Images/StrawTube.jpeg, id=656, 678.535pt x 423.5825pt>
+File: ./Images/StrawTube.jpeg Graphic file (type jpg)
+
+<use ./Images/StrawTube.jpeg>
+Package pdftex.def Info: ./Images/StrawTube.jpeg used on input line 22.
+(pdftex.def)             Requested size: 433.00813pt x 270.30118pt.
+
+<./Images/StrawProperties.jpeg, id=658, 667.49374pt x 264.99pt>
+File: ./Images/StrawProperties.jpeg Graphic file (type jpg)
+
+<use ./Images/StrawProperties.jpeg>
+Package pdftex.def Info: ./Images/StrawProperties.jpeg used on input line 29.
+(pdftex.def)             Requested size: 358.3533pt x 142.26378pt.
+ [20 <./Images/StrawTube.jpeg>]
+<./Images/StrawDetector.jpg, id=665, 623.32875pt x 309.155pt>
+File: ./Images/StrawDetector.jpg Graphic file (type jpg)
+
+<use ./Images/StrawDetector.jpg>
+Package pdftex.def Info: ./Images/StrawDetector.jpg used on input line 43.
+(pdftex.def)             Requested size: 545.04037pt x 270.30118pt.
+ [21 <./Images/StrawProperties.jpeg>] [22 <./Images/StrawDetector.jpg>]
+<./Images/ASDQ.jpeg, id=678, 725.71124pt x 387.4475pt>
+File: ./Images/ASDQ.jpeg Graphic file (type jpg)
+
+<use ./Images/ASDQ.jpeg>
+Package pdftex.def Info: ./Images/ASDQ.jpeg used on input line 54.
+(pdftex.def)             Requested size: 506.30017pt x 270.30118pt.
+
+<./Images/TopViewTracker.jpeg, id=680, 756.8275pt x 332.24126pt>
+File: ./Images/TopViewTracker.jpeg Graphic file (type jpg)
+
+<use ./Images/TopViewTracker.jpeg>
+Package pdftex.def Info: ./Images/TopViewTracker.jpeg used on input line 61.
+(pdftex.def)             Requested size: 615.76385pt x 270.30118pt.
+ [23 <./Images/ASDQ.jpeg>] [24 <./Images/TopViewTracker.jpeg>] <./Images/ADCSpl
+itUp.png, id=694, 776.9025pt x 174.6525pt>
+File: ./Images/ADCSplitUp.png Graphic file (type png)
+
+<use ./Images/ADCSplitUp.png>
+Package pdftex.def Info: ./Images/ADCSplitUp.png used on input line 84.
+(pdftex.def)             Requested size: 506.27278pt x 113.81102pt.
+ [25 <./Images/ADCSplitUp.png>] [26]
+<./Images/Clusters.jpeg, id=710, 291.0875pt x 257.96375pt>
+File: ./Images/Clusters.jpeg Graphic file (type jpg)
+
+<use ./Images/Clusters.jpeg>
+Package pdftex.def Info: ./Images/Clusters.jpeg used on input line 99.
+(pdftex.def)             Requested size: 305.03793pt x 270.30118pt.
+
+<./Images/doubleseed.jpeg, id=713, 294.09875pt x 369.38pt>
+File: ./Images/doubleseed.jpeg Graphic file (type jpg)
+
+<use ./Images/doubleseed.jpeg>
+Package pdftex.def Info: ./Images/doubleseed.jpeg used on input line 111.
+(pdftex.def)             Requested size: 215.21085pt x 270.30118pt.
+
+<./Images/trackcandidate.jpeg, id=716, 703.62875pt x 473.77pt>
+File: ./Images/trackcandidate.jpeg Graphic file (type jpg)
+
+<use ./Images/trackcandidate.jpeg>
+Package pdftex.def Info: ./Images/trackcandidate.jpeg used on input line 120.
+(pdftex.def)             Requested size: 401.44833pt x 270.30118pt.
+ [27]
+
+LaTeX Warning: Reference `jMottdca' on page 28 undefined on input line 127.
+
+[28 <./Images/Clusters.jpeg>] [29 <./Images/doubleseed.jpeg>]
+<./Images/drifttime.jpeg, id=735, 726.715pt x 361.35pt>
+File: ./Images/drifttime.jpeg Graphic file (type jpg)
+
+<use ./Images/drifttime.jpeg>
+Package pdftex.def Info: ./Images/drifttime.jpeg used on input line 131.
+(pdftex.def)             Requested size: 400.54831pt x 199.16928pt.
+
+<./Images/drifttimedist.jpeg, id=738, 1098.1025pt x 588.1975pt>
+File: ./Images/drifttimedist.jpeg Graphic file (type jpg)
+
+<use ./Images/drifttimedist.jpeg>
+Package pdftex.def Info: ./Images/drifttimedist.jpeg used on input line 139.
+(pdftex.def)             Requested size: 371.82513pt x 199.16928pt.
+
+<./Images/driftdca.jpeg, id=739, 1000.73875pt x 502.87875pt>
+File: ./Images/driftdca.jpeg Graphic file (type jpg)
+
+<use ./Images/driftdca.jpeg>
+Package pdftex.def Info: ./Images/driftdca.jpeg used on input line 145.
+(pdftex.def)             Requested size: 396.34875pt x 199.16928pt.
+
+
+LaTeX Warning: Citation `nickKin' on page 30 undefined on input line 156.
+
+[30 <./Images/trackcandidate.jpeg>] [31 <./Images/drifttime.jpeg> <./Images/dri
+fttimedist.jpeg>] <./Images/GeaneCoord.jpeg, id=749, 389.455pt x 182.6825pt>
+File: ./Images/GeaneCoord.jpeg Graphic file (type jpg)
+
+<use ./Images/GeaneCoord.jpeg>
+Package pdftex.def Info: ./Images/GeaneCoord.jpeg used on input line 159.
+(pdftex.def)             Requested size: 424.62233pt x 199.16928pt.
+
+
+LaTeX Warning: Citation `nickKin' on page 32 undefined on input line 160.
+
+
+LaTeX Warning: Citation `nickKin' on page 32 undefined on input line 160.
+
+[32 <./Images/driftdca.jpeg>]
+<./Images/ExtrapStep.jpeg, id=756, 606.265pt x 294.09875pt>
+File: ./Images/ExtrapStep.jpeg Graphic file (type jpg)
+
+<use ./Images/ExtrapStep.jpeg>
+Package pdftex.def Info: ./Images/ExtrapStep.jpeg used on input line 167.
+(pdftex.def)             Requested size: 410.57109pt x 199.16928pt.
+
+<./Images/ParRing.jpeg, id=758, 674.52pt x 330.23375pt>
+File: ./Images/ParRing.jpeg Graphic file (type jpg)
+
+<use ./Images/ParRing.jpeg>
+Package pdftex.def Info: ./Images/ParRing.jpeg used on input line 174.
+(pdftex.def)             Requested size: 406.82506pt x 199.16928pt.
+ [33 <./Images/GeaneCoord.jpeg>] [34 <./Images/ExtrapStep.jpeg> <./Images/ParRi
+ng.jpeg>] [35]) (./StrawTrackerSystematics.tex
+[36] [37]
+Chapter 4.
+
+LaTeX Warning: Reference `{fig:PicXtalk}' on page 38 undefined on input line 11
+.
+
+[38
+
+] <./Images/CrossTalkEval.jpeg, id=792, 342.27875pt x 145.54375pt>
+File: ./Images/CrossTalkEval.jpeg Graphic file (type jpg)
+
+<use ./Images/CrossTalkEval.jpeg>
+Package pdftex.def Info: ./Images/CrossTalkEval.jpeg used on input line 17.
+(pdftex.def)             Requested size: 334.59pt x 142.26378pt.
+ [39 <./Images/CrossTalkEval.jpeg>] [40]
+<./Images/TimeDiffXtalk.jpeg, id=805, 772.8875pt x 457.71pt>
+File: ./Images/TimeDiffXtalk.jpeg Graphic file (type jpg)
+
+<use ./Images/TimeDiffXtalk.jpeg>
+Package pdftex.def Info: ./Images/TimeDiffXtalk.jpeg used on input line 32.
+(pdftex.def)             Requested size: 456.44781pt x 270.30118pt.
+
+<./Images/DriftTimeXtalk.png, id=806, 702.625pt x 523.9575pt>
+File: ./Images/DriftTimeXtalk.png Graphic file (type png)
+
+<use ./Images/DriftTimeXtalk.png>
+Package pdftex.def Info: ./Images/DriftTimeXtalk.png used on input line 38.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/DCAXtalk.png, id=807, 702.625pt x 523.9575pt>
+File: ./Images/DCAXtalk.png Graphic file (type png)
+
+<use ./Images/DCAXtalk.png>
+Package pdftex.def Info: ./Images/DCAXtalk.png used on input line 44.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [41 <./Images/TimeDiffXtalk.jpeg>] [42 <./Images/DriftTimeXtalk.png> <./Images
+/DCAXtalk.png>]
+<./Images/NormalHitWidth.jpeg, id=821, 1086.0575pt x 590.205pt>
+File: ./Images/NormalHitWidth.jpeg Graphic file (type jpg)
+
+<use ./Images/NormalHitWidth.jpeg>
+Package pdftex.def Info: ./Images/NormalHitWidth.jpeg used on input line 52.
+(pdftex.def)             Requested size: 497.38844pt x 270.30118pt.
+
+<./Images/HitWidthsXtalkComparison.png, id=822, 702.625pt x 523.9575pt>
+File: ./Images/HitWidthsXtalkComparison.png Graphic file (type png)
+
+<use ./Images/HitWidthsXtalkComparison.png>
+Package pdftex.def Info: ./Images/HitWidthsXtalkComparison.png used on input li
+ne 59.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [43 <./Images/NormalHitWidth.jpeg>] <./Images/NoisDigjtsVsTemp.png, id=832, 70
+2.625pt x 523.9575pt>
+File: ./Images/NoisDigjtsVsTemp.png Graphic file (type png)
+
+<use ./Images/NoisDigjtsVsTemp.png>
+Package pdftex.def Info: ./Images/NoisDigjtsVsTemp.png used on input line 71.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/NoiseVsPressure.png, id=833, 702.625pt x 523.9575pt>
+File: ./Images/NoiseVsPressure.png Graphic file (type png)
+
+<use ./Images/NoiseVsPressure.png>
+Package pdftex.def Info: ./Images/NoiseVsPressure.png used on input line 77.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/Noise60hDataSet.png, id=834, 702.625pt x 523.9575pt>
+File: ./Images/Noise60hDataSet.png Graphic file (type png)
+
+<use ./Images/Noise60hDataSet.png>
+Package pdftex.def Info: ./Images/Noise60hDataSet.png used on input line 83.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/PlateauCurve.jpeg, id=835, 811.03pt x 562.1pt>
+File: ./Images/PlateauCurve.jpeg Graphic file (type jpg)
+
+<use ./Images/PlateauCurve.jpeg>
+Package pdftex.def Info: ./Images/PlateauCurve.jpeg used on input line 89.
+(pdftex.def)             Requested size: 390.00774pt x 270.30118pt.
+
+<./Images/VoltageVsCrossTalkProbabilityMod3Stat1.png, id=836, 702.625pt x 523.9
+575pt>
+File: ./Images/VoltageVsCrossTalkProbabilityMod3Stat1.png Graphic file (type pn
+g)
+ <use ./Images/VoltageVsCrossTalkProbabilityMod3Stat1.png>
+Package pdftex.def Info: ./Images/VoltageVsCrossTalkProbabilityMod3Stat1.png us
+ed on input line 96.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [44 <./Images/HitWidthsXtalkComparison.png>] [45 <./Images/NoisDigjtsVsTemp.pn
+g>] [46 <./Images/NoiseVsPressure.png>] [47 <./Images/Noise60hDataSet.png>] [48
+ <./Images/PlateauCurve.jpeg>] [49 <./Images/VoltageVsCrossTalkProbabilityMod3S
+tat1.png>]
+<./Images/TimeDistSim.jpeg, id=869, 440.64626pt x 316.18124pt>
+File: ./Images/TimeDistSim.jpeg Graphic file (type jpg)
+
+<use ./Images/TimeDistSim.jpeg>
+Package pdftex.def Info: ./Images/TimeDistSim.jpeg used on input line 111.
+(pdftex.def)             Requested size: 376.72955pt x 270.30118pt.
+ [50] [51 <./Images/TimeDistSim.jpeg>]
+<./Images/XtalkVerticalComp.jpeg, id=882, 703.62875pt x 489.83pt>
+File: ./Images/XtalkVerticalComp.jpeg Graphic file (type jpg)
+
+<use ./Images/XtalkVerticalComp.jpeg>
+Package pdftex.def Info: ./Images/XtalkVerticalComp.jpeg used on input line 120
+.
+(pdftex.def)             Requested size: 388.28539pt x 270.30118pt.
+
+<./Images/XtalkRadialComp.jpeg, id=883, 696.6025pt x 469.755pt>
+File: ./Images/XtalkRadialComp.jpeg Graphic file (type jpg)
+
+<use ./Images/XtalkRadialComp.jpeg>
+Package pdftex.def Info: ./Images/XtalkRadialComp.jpeg used on input line 128.
+(pdftex.def)             Requested size: 400.83032pt x 270.30118pt.
+
+<./Images/TracksXtalk.jpeg, id=884, 669.50125pt x 474.77374pt>
+File: ./Images/TracksXtalk.jpeg Graphic file (type jpg)
+
+<use ./Images/TracksXtalk.jpeg>
+Package pdftex.def Info: ./Images/TracksXtalk.jpeg used on input line 135.
+(pdftex.def)             Requested size: 381.1804pt x 270.30118pt.
+
+<./Images/YDiffXtalk.jpeg, id=885, 971.63pt x 477.785pt>
+File: ./Images/YDiffXtalk.jpeg Graphic file (type jpg)
+
+<use ./Images/YDiffXtalk.jpeg>
+Package pdftex.def Info: ./Images/YDiffXtalk.jpeg used on input line 142.
+(pdftex.def)             Requested size: 549.68362pt x 270.30118pt.
+ [52 <./Images/XtalkVerticalComp.jpeg>] [53 <./Images/XtalkRadialComp.jpeg>] [5
+4 <./Images/TracksXtalk.jpeg> <./Images/YDiffXtalk.jpeg>] <./Images/MissingLaye
+rs.jpeg, id=901, 863.225pt x 491.8375pt>
+File: ./Images/MissingLayers.jpeg Graphic file (type jpg)
+
+<use ./Images/MissingLayers.jpeg>
+Package pdftex.def Info: ./Images/MissingLayers.jpeg used on input line 162.
+(pdftex.def)             Requested size: 474.41959pt x 270.30118pt.
+
+<./Images/BadSpacialRes.jpeg, id=902, 879.285pt x 568.1225pt>
+File: ./Images/BadSpacialRes.jpeg Graphic file (type jpg)
+
+<use ./Images/BadSpacialRes.jpeg>
+Package pdftex.def Info: ./Images/BadSpacialRes.jpeg used on input line 168.
+(pdftex.def)             Requested size: 418.3624pt x 270.30118pt.
+ [55] [56 <./Images/MissingLayers.jpeg> <./Images/BadSpacialRes.jpeg>] [57]
+<./Images/NumDigitsVsRes.jpeg, id=919, 878.28125pt x 503.8825pt>
+File: ./Images/NumDigitsVsRes.jpeg Graphic file (type jpg)
+
+<use ./Images/NumDigitsVsRes.jpeg>
+Package pdftex.def Info: ./Images/NumDigitsVsRes.jpeg used on input line 177.
+(pdftex.def)             Requested size: 471.14227pt x 270.30118pt.
+
+<./Images/ReflectedTrack.jpeg, id=920, 467.7475pt x 334.24875pt>
+File: ./Images/ReflectedTrack.jpeg Graphic file (type jpg)
+
+<use ./Images/ReflectedTrack.jpeg>
+Package pdftex.def Info: ./Images/ReflectedTrack.jpeg used on input line 183.
+(pdftex.def)             Requested size: 378.28813pt x 270.30118pt.
+ [58 <./Images/NumDigitsVsRes.jpeg>]
+<./Images/DCAHits.jpeg, id=931, 850.17625pt x 528.97626pt>
+File: ./Images/DCAHits.jpeg Graphic file (type jpg)
+
+<use ./Images/DCAHits.jpeg>
+Package pdftex.def Info: ./Images/DCAHits.jpeg used on input line 194.
+(pdftex.def)             Requested size: 434.42737pt x 270.30118pt.
+ [59 <./Images/ReflectedTrack.jpeg>]
+<./Images/DCATracks.jpeg, id=937, 819.06pt x 508.90125pt>
+File: ./Images/DCATracks.jpeg Graphic file (type jpg)
+
+<use ./Images/DCATracks.jpeg>
+Package pdftex.def Info: ./Images/DCATracks.jpeg used on input line 200.
+(pdftex.def)             Requested size: 435.06206pt x 270.30118pt.
+
+<./Images/BadDCAEff.jpeg, id=938, 515.9275pt x 358.33875pt>
+File: ./Images/BadDCAEff.jpeg Graphic file (type jpg)
+
+<use ./Images/BadDCAEff.jpeg>
+Package pdftex.def Info: ./Images/BadDCAEff.jpeg used on input line 206.
+(pdftex.def)             Requested size: 389.19618pt x 270.30118pt.
+
+<./Images/GoodDCAEff.jpeg, id=939, 826.08624pt x 488.82625pt>
+File: ./Images/GoodDCAEff.jpeg Graphic file (type jpg)
+
+<use ./Images/GoodDCAEff.jpeg>
+Package pdftex.def Info: ./Images/GoodDCAEff.jpeg used on input line 213.
+(pdftex.def)             Requested size: 456.7942pt x 270.30118pt.
+ [60 <./Images/DCAHits.jpeg>] [61 <./Images/DCATracks.jpeg> <./Images/BadDCAEff
+.jpeg>]
+<./Images/ResolutionNoGoodFit.jpeg, id=950, 772.8875pt x 464.73625pt>
+File: ./Images/ResolutionNoGoodFit.jpeg Graphic file (type jpg)
+
+<use ./Images/ResolutionNoGoodFit.jpeg>
+Package pdftex.def Info: ./Images/ResolutionNoGoodFit.jpeg used on input line 2
+24.
+(pdftex.def)             Requested size: 449.53694pt x 270.30118pt.
+
+<./Images/GoodRes.jpeg, id=951, 715.67375pt x 525.965pt>
+File: ./Images/GoodRes.jpeg Graphic file (type jpg)
+
+<use ./Images/GoodRes.jpeg>
+Package pdftex.def Info: ./Images/GoodRes.jpeg used on input line 230.
+(pdftex.def)             Requested size: 367.80621pt x 270.30118pt.
+ [62 <./Images/GoodDCAEff.jpeg>] [63 <./Images/ResolutionNoGoodFit.jpeg> <./Ima
+ges/GoodRes.jpeg>]
+<./Images/ResolutionVsVoltage.jpeg, id=961, 749.80125pt x 445.665pt>
+File: ./Images/ResolutionVsVoltage.jpeg Graphic file (type jpg)
+
+<use ./Images/ResolutionVsVoltage.jpeg>
+Package pdftex.def Info: ./Images/ResolutionVsVoltage.jpeg used on input line 2
+44.
+(pdftex.def)             Requested size: 454.76955pt x 270.30118pt.
+
+<./Images/60HDataSetResidual.png, id=964, 702.625pt x 523.9575pt>
+File: ./Images/60HDataSetResidual.png Graphic file (type png)
+
+<use ./Images/60HDataSetResidual.png>
+Package pdftex.def Info: ./Images/60HDataSetResidual.png used on input line 251
+.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [64]
+<./Images/ResidualsRun.jpeg, id=970, 506.89375pt x 328.22626pt>
+File: ./Images/ResidualsRun.jpeg Graphic file (type jpg)
+
+<use ./Images/ResidualsRun.jpeg>
+Package pdftex.def Info: ./Images/ResidualsRun.jpeg used on input line 258.
+(pdftex.def)             Requested size: 417.44226pt x 270.30118pt.
+
+
+LaTeX Warning: Reference `{fig:TempRun}' on page 65 undefined on input line 265
+.
+
+
+LaTeX Warning: Reference `{fig:TempRun}' on page 65 undefined on input line 265
+.
+
+
+LaTeX Warning: Reference `{fig:ChiRun}' on page 65 undefined on input line 265.
+
+
+[65 <./Images/ResolutionVsVoltage.jpeg>] [66 <./Images/60HDataSetResidual.png> 
+<./Images/ResidualsRun.jpeg>]
+<./Images/TempVsRunNumber.png, id=982, 1356.06625pt x 683.55376pt>
+File: ./Images/TempVsRunNumber.png Graphic file (type png)
+
+<use ./Images/TempVsRunNumber.png>
+Package pdftex.def Info: ./Images/TempVsRunNumber.png used on input line 268.
+(pdftex.def)             Requested size: 536.25072pt x 270.30118pt.
+
+<./Images/VarianceVsTempIN.png, id=983, 702.625pt x 523.9575pt>
+File: ./Images/VarianceVsTempIN.png Graphic file (type png)
+
+<use ./Images/VarianceVsTempIN.png>
+Package pdftex.def Info: ./Images/VarianceVsTempIN.png used on input line 274.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/MeanChi260HDataSet.png, id=984, 929.4725pt x 586.19pt>
+File: ./Images/MeanChi260HDataSet.png Graphic file (type png)
+
+<use ./Images/MeanChi260HDataSet.png>
+Package pdftex.def Info: ./Images/MeanChi260HDataSet.png used on input line 280
+.
+(pdftex.def)             Requested size: 428.5837pt x 270.30118pt.
+
+<./Images/Chi2MeanVsTemp.png, id=985, 702.625pt x 523.9575pt>
+File: ./Images/Chi2MeanVsTemp.png Graphic file (type png)
+
+<use ./Images/Chi2MeanVsTemp.png>
+Package pdftex.def Info: ./Images/Chi2MeanVsTemp.png used on input line 286.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/Chi2RMSVsTemp.png, id=986, 702.625pt x 523.9575pt>
+File: ./Images/Chi2RMSVsTemp.png Graphic file (type png)
+
+<use ./Images/Chi2RMSVsTemp.png>
+Package pdftex.def Info: ./Images/Chi2RMSVsTemp.png used on input line 292.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+
+LaTeX Warning: Reference `{fig:pressRun}' on page 67 undefined on input line 29
+8.
+
+
+LaTeX Warning: Reference `{fig:pressRun}' on page 67 undefined on input line 29
+8.
+
+<./Images/PressureVsRunNumber.png, id=988, 702.625pt x 523.9575pt>
+File: ./Images/PressureVsRunNumber.png Graphic file (type png)
+
+<use ./Images/PressureVsRunNumber.png>
+Package pdftex.def Info: ./Images/PressureVsRunNumber.png used on input line 30
+0.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [67 <./Images/TempVsRunNumber.png>]
+[68 <./Images/VarianceVsTempIN.png> <./Images/MeanChi260HDataSet.png>] [69 <./I
+mages/Chi2MeanVsTemp.png> <./Images/Chi2RMSVsTemp.png>]
+File: ./Images/60HDataSetResidual.png Graphic file (type png)
+
+<use ./Images/60HDataSetResidual.png>
+Package pdftex.def Info: ./Images/60HDataSetResidual.png used on input line 306
+.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/Chi2MeanVsPressure.png, id=1006, 702.625pt x 523.9575pt>
+File: ./Images/Chi2MeanVsPressure.png Graphic file (type png)
+
+<use ./Images/Chi2MeanVsPressure.png>
+Package pdftex.def Info: ./Images/Chi2MeanVsPressure.png used on input line 314
+.
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+
+<./Images/Chi2RMSVsPressure.png, id=1007, 702.625pt x 523.9575pt>
+File: ./Images/Chi2RMSVsPressure.png Graphic file (type png)
+
+<use ./Images/Chi2RMSVsPressure.png>
+Package pdftex.def Info: ./Images/Chi2RMSVsPressure.png used on input line 320.
+
+(pdftex.def)             Requested size: 362.4831pt x 270.30118pt.
+ [70 <./Images/PressureVsRunNumber.png>]
+[71 <./Images/Chi2MeanVsPressure.png>] [72 <./Images/Chi2RMSVsPressure.png>]
+
+LaTeX Warning: Reference `{fig:AvgVertSmear}' on page 73 undefined on input lin
+e 333.
+
+<./Images/AvgVerticalSmear.png, id=1027, 697.60625pt x 474.77374pt>
+File: ./Images/AvgVerticalSmear.png Graphic file (type png)
+
+<use ./Images/AvgVerticalSmear.png>
+Package pdftex.def Info: ./Images/AvgVerticalSmear.png used on input line 335.
+(pdftex.def)             Requested size: 397.18198pt x 270.30118pt.
+
+<./Images/stdVerticalSmear.png, id=1028, 698.61pt x 471.7625pt>
+File: ./Images/stdVerticalSmear.png Graphic file (type png)
+
+<use ./Images/stdVerticalSmear.png>
+Package pdftex.def Info: ./Images/stdVerticalSmear.png used on input line 341.
+(pdftex.def)             Requested size: 400.27986pt x 270.30118pt.
+File: ./Images/stdVerticalSmear.png Graphic file (type png)
+ <use ./Images/stdVerticalSmear.png>
+Package pdftex.def Info: ./Images/stdVerticalSmear.png used on input line 347.
+(pdftex.def)             Requested size: 400.27986pt x 270.30118pt.
+
+<./Images/AvgRadialSmear.png, id=1029, 692.5875pt x 475.7775pt>
+File: ./Images/AvgRadialSmear.png Graphic file (type png)
+
+<use ./Images/AvgRadialSmear.png>
+Package pdftex.def Info: ./Images/AvgRadialSmear.png used on input line 353.
+(pdftex.def)             Requested size: 393.48967pt x 270.30118pt.
+
+<./Images/stdRadialSmear.png, id=1030, 699.61375pt x 473.77pt>
+File: ./Images/stdRadialSmear.png Graphic file (type png)
+
+<use ./Images/stdRadialSmear.png>
+Package pdftex.def Info: ./Images/stdRadialSmear.png used on input line 359.
+(pdftex.def)             Requested size: 399.15761pt x 270.30118pt.
+ [73] [74 <./Images/AvgVerticalSmear.png> <./Images/stdVerticalSmear.png>] [75 
+<./Images/AvgRadialSmear.png>]) [76 <./Images/stdRadialSmear.png>]
+Overfull \hbox (89.90947pt too wide) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/12 Fermi Lab Red-mine, https://cdcvs.fnal.gov/redmine/projects/g
+m2tracker/wiki/Reconstruction[]Contents 
+ []
+
+
+Overfull \hbox (82.33733pt too wide) in paragraph at lines 110--111
+[]\OT1/cmr/m/n/12 Fermi Lab Red-mine, https://cdcvs.fnal.gov/redmine/projects/g
+m2tracker/wiki/Digitalization[]Contents 
+ []
+
+[77
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 2E2EC694C0390F880904A999192C29C4;2995.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
+ ) 
+Here is how much of TeX's memory you used:
+ 7328 strings out of 493014
+ 109776 string characters out of 6133351
+ 196746 words of memory out of 5000000
+ 10452 multiletter control sequences out of 15000+600000
+ 10214 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,9n,32p,3044b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (86 pages, 3073282 bytes).
+PDF statistics:
+ 1158 PDF objects out of 1200 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 623 words of extra memory for PDF output out of 10000 (max. 10000000)
+
