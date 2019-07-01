@@ -1,6 +1,9 @@
 \documentclass[./Thesis]{subfiles}
 
 
+\graphicspath{{./Images/}}
+
+
 
 \begin{document}
 \chapter{Straw Tube Tracker Systematics}
@@ -46,7 +49,11 @@ Cross Talk is an effect when there is a particle signal in one wire which causes
 	\label{fig:DCAXtalk}
 \end{figure}
 	
-	Next it was necessary to evaluate the general properties of cross talk, they are not necessarily important for the simulation; However, it is nice to know and document the properties as a quality control standard. In addition, this gives a good double check that the previous method of establishing the properties of cross talk are valid. It was found that the hit width distribution, which was explained previously in the tracking section, had an odd shape with one little hump on the small hit width side and a large overlaying hump as shown in Fig. \ref{fig:hitWidth}. It seems that this would be the cross talk since we would expect the cross talk signal to be small, at least smaller than the primary digit. To prove this I used the previous method to select out cross talk and the primaries. Putting these into the hit width distribution Fig. \ref{fig:hitWidthAll} I found that the assumption that digits that are larger are more likely to cause cross talk digits that are small is valid. 
+	In order to add the effects of cross talk into the simulation and to understand the true effects that cross talk has on our track finding and fitting we needed to ask the questions when does cross talk occur after the first digit, is there any correlations between the data products of the cross talk hit or the primary hit (The hit that causes the cross talk), how much cross talk occurs in our detectors...etc. To do this it is necessary to show the known properties of cross talk just from the very definition of it being cross talk. 
+
+ Firstly, we know that cross talk is caused by something else, therefore it must occur after another hit in the detector.  Secondly, we know that from the sources of cross talk we are most likely going to find cross talk in the neighboring wire.  Lastly, since the cross-talk signal again is caused by charge in another wire the primary signal charge cannot be larger than the cross-talk signal charge.  These properties will be important for selecting the tracks and will allow us to pick out cross talk signals.
+	
+	Next it was necessary to evaluate the general properties of cross talk, they are not necessarily important for the simulation; However, it is nice to know and document the properties as a quality control standard.  In addition, this gives a good double check that the method to select the cross-talk digits are valid.  It was found that the hit width distribution, explained previously, had an odd shape with one little hump on the small hit width side and a large overlaying hump as shown in Fig. \ref{fig:hitWidth}. It seems that this would be the cross talk since we would expect the cross-talk signal to be small, at least smaller than the primary digit.  To prove this, the earlier method to select out cross talk and the primaries method was used.  Putting these into the hit width distribution Fig. \ref{fig:hitWidthAll} it is found that the assumption that digits that are larger are more likely to cause cross talk digits that are small is valid.
 	
 \begin{figure}
 	\centerline{\includegraphics[height=95mm]{NormalHitWidth.jpeg}}
@@ -63,8 +70,7 @@ Cross Talk is an effect when there is a particle signal in one wire which causes
 
 	
 	
-	 The cross talk in the detector should be dependent on the gain in the straws and therefore the cross talk will be dependent on external weather effects due to the properties of the argon ethane gas changing. To investigate this I looked at data on a data set which was ran over 60 hours, averaged the temperatures and pressures over the series of runs, and looked at the number of cross talk digits vs. the number of tracks found in that layer. Fig. \ref{fig:NoiseTemp} shows how the cross talk increases as a function of temperature and Fig. \ref{fig:NoisePress} shows how the cross talk I selected decreases as a function of pressure. These results are consistent with what I would expect with cross talk. In Fig. \ref{fig:NoiseRun} shows how the cross talk varied over multiple detectors over that same 60 hour period which shows that there is a fairly large variance in cross talk from run to run. Note, the percentage on the y-axis is arbitrary since its the percentage of tracks, the point of these is to confirm that the properties of the digits I collected as cross talk have the properties of cross talk.  As another double check, the gain is also dependent on the voltage on the trackers. Therefore, we should expect that the cross talk vs. voltage should give an exponential curve until we get to saturation. In Fig. \ref{fig:plateau} shows how the gain is dependent on the voltage. Using data from different voltages in the detectors it is found that this is true given in Fig. \ref{fig:NoiseVolts}.
-	
+	The cross talk in the detector should be dependent on the gain in the straws and therefore the cross talk will be dependent on external weather effects due to the properties of the argon ethane gas changing.  To investigate this, a data set which was ran over 60 hours was used.  Then the average temperatures and pressures over the series of runs was observed and the number of cross talk digits versus the number of tracks found in that layer. Fig.\ref{fig:NoiseTemp} shows how the cross talk increases as a function of temperature and Fig.\ref{fig:NoisePress} shows how the cross talk I selected decreases as a function of pressure. These results are consistent with what I would expect with cross talk.  In Fig.\ref{fig:NoiseRun} shows how the cross talk varied over multiple detectors over that same 60 hour period which shows that there is a fairly large variance in cross talk from run to run. Note, the percentage on the y-axis is arbitrary since it?s the percentage of tracks, the point of these is to confirm that the properties of the digits that were collected as cross talk have the properties of cross talk.  As another double check, the gain is also dependent on the voltage on the trackers.  Therefore, we should expect that the cross talk versus voltage should give an exponential curve until we get to saturation.  In Fig.\ref{fig:plateau} shows how the gain is dependent on the voltage. Using data from different voltages in the detectors it is found that this is true given in Fig.\ref{fig:NoiseVolts}.	
 	
 	
 \begin{figure}
@@ -87,7 +93,7 @@ Cross Talk is an effect when there is a particle signal in one wire which causes
 
 \begin{figure}
 	\centerline{\includegraphics[height=95mm]{PlateauCurve.jpeg}}
-	\caption[Plateau Plot  ]{ The plateau plot of $32$ straws in the straw tracker. Y axis is essentially proportional to gain.}
+	\caption[Plateau Plot ]{ The plateau plot of $32$ straws in the straw tracker. Y axis is essentially proportional to current in detector.}
 	\label{fig:plateau}
 \end{figure}
 
@@ -102,23 +108,25 @@ Cross Talk is an effect when there is a particle signal in one wire which causes
 	
 \subsection{Introduction of Cross Talk into Simulation}
 
-	Now that the  properties of known cross talk signals and the signal the causes the cross talk are characterized it is now necessary to add the cross talk into a simulation to observe the effects that the cross talk has on the tracking. Firstly, it is necessary to establish at which step it is required we add in the cross talk and what properties are required so that we can randomly add this into the data. 
+	Now that the properties of known cross talk signals are characterized it is now necessary to add the cross talk into a simulation to observe the effects that the cross talk has on the tracking. Firstly, it is necessary to establish at which step in the code that it is required to add in cross-talk and what properties are required so that we can randomly add this into the data. 
 	
-	In order to explain the reasoning behind this step it is necessary to explain a little bit about how the simulation that is being used works and what is being added in for data along the way. The simulation that we used is what is called a gas gun simulation where particles are randomly positioned in the ring at there decay points with some initial momentum defined by the simulation. The particle then decays to anywhere in the ring and then we can look at the decays that hit the detectors. The next step then picks out the specific straws that are hit and the distance from the center of the straw and then creates the digits. These digits only have the properties of what is called the wire id, which just labels the specific straw that is hit, and the time at which the wire was hit. Then the tracking algorithm uses this data to do the normal tracking algorithm that is established in previous sections. With this being said it was found that the best place to add in the effect of cross talk is just after the digits for the actual track are being added in since we need the properties of those particular digits, such as where the cross talk digits will occur and at what time the digits will occur. 
+	To explain the reasoning behind this step it is necessary to explain a little bit about how the simulation that is being used works and what is being added in for data along the way.  The simulation that we used is what is called a gas gun simulation where particles are randomly positioned in the ring at their decay points with some initial momentum defined by the simulation. The particle then decays to anywhere in the ring and then we can look at the decays that hit the detectors.  The next step then picks out the specific straws that are hit and the distance from the center of the straw and then creates the digits.  These digits only have the properties of what is called the wire id, which just labels the specific straw that is hit, and the time at which the wire was hit.  Then the tracking algorithm uses this data to do the normal tracking algorithm that is shown in earlier sections.  With it was found that the best place to add in the effect of cross talk is just after the digits for the actual track are being added.  The only properties that are needed is that of those digits, such as where the cross-talk digits will occur and at what time the digits will occur. 
 	
-	To add the effect of cross talk into the simulation I randomly pick some digits that are generated in the simulation according to a defined percentage which is defined as a variable in my code. Then added in is another digit into the neighboring wire to the random time distribution that was found Fig. \ref{fig:TimeDiffSim}. Next, regenerate all the digits with the cross talk digits and pass it on to the next section will be the tracking algorithm defined in previous sections. To confirm that the coding was right it is satisfactory to look at the time distribution as given in the simulation, since this is the only defined parameter in the code, this is found in Fig.\ref{fig:TimeXtalk} . This shows that the data and the mathematical model agree so therefore confirmed that the programming was correct in the simulation.
+	To add the effect of cross talk into the simulation there was randomly picked some digits according to a defined percentage which is defined as a variable in my code.  Then added in is another digit into the neighboring wire to the random time distribution that was found Fig.\ref{fig:TimeDiffSim}. Next, there was regenerated all the digits along with the cross-talk digits and it was passed on to the tracking algorithm defined in earlier sections.
+
+  To confirm that the coding was correct it is satisfactory to compare the time distribution as given in the simulation, Fig.\ref{fig:TimeDiffSim}, and the observed time distribution Fig.\ref{fig:TimeXtalk}, since this is the only defined parameter in the code. This shows that the data and the mathematical model agree so this confirms that the programming was correct in the simulation.
+	
 \begin{figure}
 	\centerline{\includegraphics[height=95mm]{TimeDistSim.jpeg}}
 	\caption[ Time Distribution of Simulation]{ The time distribution of simulation}
 	\label{fig:TimeDiffSim}
 \end{figure}
 	
-	Comparing the vertical positions and the radial positions for different cross talk probabilities found in Fig. \ref{fig:XtalkVerticalComp} and Fig. \ref{fig:XtalkRadialComp}respectively. Here the black is 10,\% red is 25\% ,green is 25\%, and Blue is 100\%. These plots show that for a significant amount of data that the cross talk will not have a significant effect on the vertical or radial distributions. However, I need to get a number for error associated with the cross talk probability and we know it is not zero. Furthermore, it is necessary to find out how many tracks are effected by the cross talk and specifically how the cross talk effects the extrapolated vertical and radial positions. \ref{fig:tracksXtalk} and shows the percentage of tracks with cross talk found in them vs. the cross talk probability. Here the y axis is in percentage of tracks which shows that only $0.5\%$ of the tracks make it past the track finding algorithm which shows how robust this algorithm is. Fig.\ref{fig:YDiffXtalk} shows the difference between a track with and without cross talk for the vertical distribution. Using these numbers of the standard deviations and the means and the percentage of these tracks that are found in the final data gives an error of $<0.005 mm$ .
-
+	Comparing the vertical positions and the radial positions for different cross talk probabilities found in Fig. \ref{fig:XtalkVerticalComp} and Fig.\ref{fig:XtalkRadialComp} respectively. Here black is 3\%, red is 5\%, green is 10\%, and Blue is 15\%.  These plots show that for a significant amount of data that the cross talk will not have a significant effect on the vertical or radial distributions.  However, I need to get a number for error associated with the cross-talk probability and we know it is not zero.  Furthermore, it is necessary to find out how many tracks are affected by the cross talk and specifically how the cross-talk effects the extrapolated vertical and radial positions.  \ref{fig:tracksXtalk} and shows the percentage of tracks with cross talk found in them vs. the cross talk probability. Here the y axis is in percentage of tracks which shows that only $0.5\%$ of the tracks make it past the track finding algorithm which shows how robust this algorithm is.  Fig.\ref{fig:YDiffXtalk} shows the difference between a track with and without cross talk for the vertical distribution. Using these numbers of the standard deviations and the means and the percentage of these tracks that are found in the final data gives an error of $<0.005 mm$.
 
 \begin{figure}
 	\centerline{\includegraphics[height=95mm]{XtalkVerticalComp.jpeg}}
-	\caption[ Comparison of the Vertical Distribution]{ Comparison of vertical Distribution with different amount of cross talk 10\% (black) 25\%(Red) 50\%(Green) 100\%(Blue)}
+	\caption[ Comparison of the Vertical Distribution]{ Comparison of vertical Distribution with different amount of cross talk 3\% (black) 5\%(Red) 10\%(Green) 15\%(Blue)}
 	\label{fig:XtalkVerticalComp}
 \end{figure}
 
@@ -126,7 +134,7 @@ Cross Talk is an effect when there is a particle signal in one wire which causes
 
 \begin{figure}
 	\centerline{\includegraphics[height=95mm]{XtalkRadialComp.jpeg}}
-	\caption[ Comparison of the Radial Distribution]{ Comparison of radial Distribution with different amount of cross talk 10\% (black) 25\%(Red) 50\%(Green) 100\%(Blue)}
+	\caption[ Comparison of the Radial Distribution]{ Comparison of radial Distribution with different amount of cross talk 3\% (black) 5\%(Red) 10\%(Green) 15\%(Blue)}
 	\label{fig:XtalkRadialComp}
 \end{figure}
 
